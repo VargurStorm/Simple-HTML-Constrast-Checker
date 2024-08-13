@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bento Box Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bento-box">
+        <div class="section">
+            <h2>Background Colors</h2>
+            <div class="box primary-bg">Primary Background</div>
+            <div class="color-code" id="codePrimaryBg">CodePrimaryBg</div>
+            <div class="box secondary-bg">Secondary Background</div>
+            <div class="color-code" id="codeSecondaryBg">codeSecondaryBg</div>
+        </div>
+        <div class="section">
+            <h2>Text Colors</h2>
+            <div class="box primary-text">Primary Text</div>
+            <div class="color-code" id="codePrimaryText">CodePrimaryText</div>
+            <div class="box secondary-text">Secondary Text</div>
+            <div class="color-code" id="codeSecondaryText">CodeSecondaryText</div>
+            <div class="box tertiary-text">Tertiary Text</div>
+            <div class="color-code" id="codeTertiaryText">CodeTertiaryText</div>
+        </div>
+        <div class="section">
+            <h2>Accent Colors</h2>
+            <div class="box primary-accent">Primary Accent</div>
+            <div class="color-code" id="codePrimaryAccent">CodePrimaryAccent</div>
+            <div class="box secondary-accent">Secondary Accent</div>
+            <div class="color-code" id="codeSecondaryAccent">CodeSecondaryAccent</div>
+            <div class="box tertiary-accent1">Tertiary Accent 1</div>
+            <div class="color-code" id="codeTertiaryAccent1">CodeTertiaryAccent1</div>
+            <div class="box tertiary-accent2">Tertiary Accent 2</div>
+            <div class="color-code" id="codeTertiaryAccent2">CodeTertiaryAccent2</div>
+            <div class="box tertiary-accent3">Tertiary Accent 3</div>
+            <div class="color-code" id="codeTertiaryAccent3">CodeTertiaryAccent3</div>
+        </div>
+        <div class="section">
+            <h2>Status Colors</h2>
+            <div class="box success">Success</div>
+            <div class="color-code" id="codeSuccess">CodeSuccess</div>
+            <div class="box warning">Warning</div>
+            <div class="color-code" id="codeWarning">CodeWarning</div>
+            <div class="box error">Error</div>
+            <div class="color-code" id="codeError">CodeError</div>
+            <div class="box info">Info</div>
+            <div class="color-code" id="codeInfo">CodeInfo</div>
+        </div>
+    </div>
+
+    <h2> Contrast Demonstration</h2>
+    <div class="contrast-area">
+        <div class="contrast-box">
+            <h3>Backgrounds</h3>
+            <div class="contrast-text primary-bg primary-text">Primary Background with Primary Text</div>
+            <div class="contrast-text secondary-bg primary-text">Secondary Background with Primary Text</div>
+            <div class="contrast-text primary-bg secondary-text">Primary Background with Secondary Text</div>
+            <div class="contrast-text secondary-bg secondary-text">Secondary Background with Secondary Text</div>
+            <div class="contrast-text primary-bg tertiary-text">Primary Background with Tertiary Text</div>
+            <div class="contrast-text secondary-bg tertiary-text">Secondary Background with Tertiary Text</div>
+        </div>
+
+        <div class="contrast-box">
+            <h3>Primary Text</h3>
+            <div class="contrast-text primary-accent primary-text">Primary Accent with Primary Text</div>
+            <div class="contrast-text secondary-accent primary-text">Secondary Accent with Primary Text</div>
+            <div class="contrast-text tertiary-accent1 primary-text">Tertiary Accent 1 with Primary Text</div>
+            <div class="contrast-text tertiary-accent2 primary-text">Tertiary Accent 2 with Primary Text</div>
+            <div class="contrast-text tertiary-accent3 primary-text">Tertiary Accent 3 with Primary Text</div>
+        </div>
+
+        <div class="contrast-box">
+            <h3>Secondary Text</h3>
+            <div class="contrast-text primary-accent secondary-text">Primary Accent with Secondary Text</div>
+            <div class="contrast-text secondary-accent secondary-text">Secondary Accent with Secondary Text</div>
+            <div class="contrast-text tertiary-accent1 secondary-text">Tertiary Accent 1 with Secondary Text</div>
+            <div class="contrast-text tertiary-accent2 secondary-text">Tertiary Accent 2 with Secondary Text</div>
+            <div class="contrast-text tertiary-accent3 secondary-text">Tertiary Accent 3 with Secondary Text</div>
+        </div>
+            
+        <div class="contrast-box">
+            <h3>Tertiary Text</h3>
+            <div class="contrast-text primary-accent tertiary-text">Primary Accent with Tertiary Text</div>
+            <div class="contrast-text secondary-accent tertiary-text">Secondary Accent with Tertiary Text</div>
+            <div class="contrast-text tertiary-accent1 tertiary-text">Tertiary Accent 1 with Tertiary Text</div>
+            <div class="contrast-text tertiary-accent2 tertiary-text">Tertiary Accent 2 with Tertiary Text</div>
+            <div class="contrast-text tertiary-accent3 tertiary-text">Tertiary Accent 3 with Tertiary Text</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

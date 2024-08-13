@@ -1,0 +1,103 @@
+:root {
+    --primary-bg: #121212;
+    --secondary-bg: #1E1E1E;
+    --primary-text: #E0E0E0;
+    --secondary-text: #A0A0A0;
+    --tertiary-text: #1b1b1b;
+    --primary-accent: #BB86FC;
+    --secondary-accent: #3700B3;
+    --tertiary-accent1: #FF79B0;
+    --tertiary-accent2: #9F86FF;
+    --tertiary-accent3: #80E27E;
+    --success: #00C853;
+    --warning: #FFAB00;
+    --error: #CF6679;
+    --info: #03A9F4;
+}
+
+body {
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.bento-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 40px;
+}
+
+.section {
+    background-color: var(--secondary-bg);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section h2 {
+    color: var(--primary-text);
+    margin-top: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.primary-bg { background-color: var(--primary-bg); }
+.secondary-bg { background-color: var(--secondary-bg); }
+.primary-text { color: var(--primary-text); }
+.secondary-text { color: var(--secondary-text); }
+.tertiary-text { color: var(--tertiary-text); }
+.primary-accent { background-color: var(--primary-accent); }
+.secondary-accent { background-color: var(--secondary-accent); }
+.tertiary-accent1 { background-color: var(--tertiary-accent1); }
+.tertiary-accent2 { background-color: var(--tertiary-accent2); }
+.tertiary-accent3 { background-color: var(--tertiary-accent3); }
+.success { background-color: var(--success); }
+.warning { background-color: var(--warning); color: var(--primary-bg); }
+.error { background-color: var(--error); }
+.info { background-color: var(--info); }
+
+.contrast-area {
+    width: 100%;
+    max-width: 800px;
+    background-color: var(--secondary-bg);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.contrast-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contrast-text {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.color-code { 
+    font-size: 14px;
+    font-family: Courier, monospace;
+    color: var(--primary-text);
+}
